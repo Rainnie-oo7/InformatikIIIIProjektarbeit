@@ -59,8 +59,8 @@ def classify_predictions(y_pred, threshold):
 # Hauptprogramm
 if __name__ == "__main__":
     # Datei Pfade anpassen
-    train_file_path = '''C:/Users/Boris Grillborzer/Nextcloud/4SEMESTERInformatik/UB6Projekt/breast-cancer_trainlin.csv'''
-    test_file_path = '''C:/Users/Boris Grillborzer/Nextcloud/4SEMESTERInformatik/UB6Projekt/breast-cancer_testlin.csv'''
+    train_file_path = '''C:/Users/user/path-to-file/breast-cancer_train.csv'''
+    test_file_path = '''C:/Users/user/path-to-file/breast-cancer_test.csv'''
 
     # Laden der Trainingsdaten
     train_data = load_data(train_file_path)
