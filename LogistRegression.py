@@ -5,8 +5,8 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import GridSearchCV
 
-train_file_path = '''C:/Users/Boris Grillborzer/Nextcloud/4SEMESTERInformatik/UB6Projekt/breast-cancer_train.csv'''
-test_file_path = '''C:/Users/Boris Grillborzer/Nextcloud/4SEMESTERInformatik/UB6Projekt/breast-cancer_test.csv'''
+train_file_path = '''C:/Users/user/path-to-file/breast-cancer_train.csv'''
+test_file_path = '''C:/Users/user/path-to-file/breast-cancer_test.csv'''
 
 # Load your training data
 df_train = pd.read_csv(train_file_path)
